@@ -19,6 +19,7 @@ Require nodejs version 16+, any tools to ide or editor can using for apply this 
 - Have 2 file .env (Recommmend stay my configuration)
 
 > /front-end/.env (Link api and save youtube API key)
+> 
 > /backend/.env (port run BE service and secret key to bypass password)
 
 # 4) Database config
