@@ -17,15 +17,15 @@ Require nodejs version 16+, any tools to ide or editor can using for apply this 
  - Clone project: (require install git)
  >[git clone https://github.com/tunv13/video-sharing-project](https://github.com/tunv13/video-sharing-project.git)
  >
-Please unzip file "config-secret.zip"
+Please unzip file *"config-secret.zip"*
 >
 Because this is github public so I need zip to folder to avoid hacker scan
 >
 You will see 2 file after unzip folder
 <img width="147" alt="image" src="https://github.com/tunv13/video-sharing-project/assets/107676291/4b0830e0-7604-41a2-b5fa-a171ea4cd6e8">
-Please copy content of file env-fe.txt to file /front-end/.env
+Please copy content of file *env-fe.txt* to file */front-end/.env*
 >
-And content of file configdb.json to file /backend/config/config.json
+And content of file *configdb.json* to file */backend/config/config.json*
 >
  This is my configuration
 - Have 2 file .env (Recommmend stay my configuration)
