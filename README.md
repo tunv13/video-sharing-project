@@ -96,16 +96,18 @@ I using webserver is Nginx and route traffic to FE Docker run in port 81
 >
 I create a domain "api-video.sendme.kr" point A record from DNS to IP Server, the server is open port 80
 >
-In in step, at folder /etc/nginx/sites-avaiable of VPS, I create a new file having name "api-video.sendme.kr"
+In in step, at folder */etc/nginx/sites-avaiable* of VPS, I create a new file having name "api-video.sendme.kr"
 >
 and route traffic to port 8000 run BE server from docker
 >
-
+Then we need to enable BE to domain "api-video.sendme.kr" by command:
+> sudo ln -s /etc/nginx/sites-available/api-video.sendme.kr /etc/nginx/sites-enabled/
 >
 <img width="562" alt="image" src="https://github.com/tunv13/video-sharing-project/assets/107676291/272bb24d-28de-4711-bb29-25f07915f711">
 
 >
-Don't forget restart nginx service by command: "systemctl restart nginx"
+Don't forget restart nginx service by command: 
+>systemctl restart nginx
 >
 Here we go!
 I can access this site by url: http://video.sendme.kr
