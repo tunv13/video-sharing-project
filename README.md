@@ -4,6 +4,7 @@
 
  - This is a project about sharing video of youtube, user can see all of video that is shared by other people
  - User can login to website to received notification when other user posted new video
+ - Technical: ReactJS, NodeJS, MySql
  - key features is: Login, View list video, share video, notification when other user push new video
 
 # 2) Prerequisites: 
