@@ -84,9 +84,22 @@ You must have stay in folder *backend* by command
 I'm using VPS run OS Ubuntu 22.04 for deploy this project
 >
 In the VPS, I also install docker and docker compose and run project same like step 5
+But I change file .env of Front End to url API in server is: "http://api-video.sendme.kr"
 >
-After that, I point A record from DNS to IP Server, the server is open port 80
+After that, I create a domain "video.sendme.kr" point A record from DNS to IP Server, the server is open port 80
+>
+I using webserver is Nginx and route traffic to FE Docker run in port 81
 <img width="527" alt="image" src="https://github.com/tunv13/video-sharing-project/assets/107676291/697146e8-855c-488b-83e6-a90145b6ec19">
+>
+I create a domain "api-video.sendme.kr" point A record from DNS to IP Server, the server is open port 80
+>
+In in step, at folder /etc/nginx/sites-avaiable of VPS, I create a new file having name "api-video.sendme.kr"
+?
+and route traffic to port 8000 run BE server from docker
+<img width="562" alt="image" src="https://github.com/tunv13/video-sharing-project/assets/107676291/272bb24d-28de-4711-bb29-25f07915f711">
+
+
+
 
 
 
