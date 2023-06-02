@@ -134,7 +134,8 @@ At this screen, user can paste link youtube in Input box, then system will show 
 - Notification: If have any user share video, if you are loged in, you will see a notification box in system
 
 # 8) Troubleshooting
-Nothing
+- Focus on config of database 
+- Focus on config of front-end .env has YOUTUBE-API-KEY (I already provide in file zip)
 
 
 
