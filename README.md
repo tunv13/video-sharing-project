@@ -10,7 +10,7 @@
 3) Installation & Configuration: 
 __
  Clone project: (require install git)
- >git clone https://github.com/tunv13/video-sharing-project
+ >[git clone https://github.com/tunv13/video-sharing-project](https://github.com/tunv13/video-sharing-project.git)
  
 5) 
 - I am using database server host on cloud AWS RDS. (Recommend using my DB, my configuration)
