@@ -39,7 +39,7 @@ Then run this command for migration and seed DB
 Run this command in root folder: 
 >docker compose up
 >
-Everything is auto run and web will start in port 80 *http://localhost*
+Everything is auto run and web will start in port 81 *http://localhost:81*
 
 ### Run test unit for BE
 You must have stay in folder *backend* 
