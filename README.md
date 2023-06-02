@@ -1,7 +1,7 @@
 # video-sharing
 
 # 1) Introduction:
-
+ Link: http://video.sendme.kr/
  - This is a project about sharing video of youtube, user can see all of video that is shared by other people
  - User can login to website to received notification when other user posted new video
  - Technical: ReactJS, NodeJS, MySql
@@ -79,6 +79,16 @@ You must have stay in folder *backend* by command
 >
 - Run this command for integration test
 > yarn && yarn integration
+
+# 6) Docker Deployment 
+I'm using VPS run OS Ubuntu 22.04 for deploy this project
+>
+In the VPS, I also install docker and docker compose and run project same like step 5
+>
+After that, I point A record from DNS to IP Server, the server is open port 80
+<img width="527" alt="image" src="https://github.com/tunv13/video-sharing-project/assets/107676291/697146e8-855c-488b-83e6-a90145b6ec19">
+
+
 
 # 7) Usage
 - Login: User can login by default account: example@example.com / 123123
