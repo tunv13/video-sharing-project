@@ -23,6 +23,7 @@ Because this is github public so I need zip to folder to avoid hacker scan
 >
 You will see 2 file after unzip folder
 <img width="147" alt="image" src="https://github.com/tunv13/video-sharing-project/assets/107676291/4b0830e0-7604-41a2-b5fa-a171ea4cd6e8">
+>
 Please copy content of file *env-fe.txt* to file */front-end/.env*
 >
 And content of file *configdb.json* to file */backend/config/config.json*
