@@ -8,7 +8,9 @@
 2) Prerequisites: Require nodejs version 16+, any tools to ide or editor can using for apply this project (I'm using vscode)
 
 3) Installation & Configuration: 
- Clone project: 
+__
+ Clone project: (require install git)
+ >git clone https://github.com/tunv13/video-sharing-project
  
 5) 
 - I am using database server host on cloud AWS RDS. (Recommend using my DB, my configuration)
