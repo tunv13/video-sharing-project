@@ -16,6 +16,7 @@ Run this command in root folder:
 >docker compose up
 >
 Everything is auto run and web will start in port 80 *http://localhost*
+ - You can login by example@example.com / 123123
 ## Run test unit for BE
 You must have stay in folder *backend* 
 - Run this command for build image
