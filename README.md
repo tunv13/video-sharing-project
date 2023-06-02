@@ -1,6 +1,6 @@
 # video-sharing
 
-# 1) Introduction: **
+# 1) Introduction:
 
  - This is a project about sharing video of youtube, user can see all of video that is shared by other people
  - User can login to website to received notification when other user posted new video
