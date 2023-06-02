@@ -8,11 +8,16 @@
 2) Prerequisites: Require nodejs version 16+, any tools to ide or editor can using for apply this project (I'm using vscode)
 
 3) Installation & Configuration: 
-__
- Clone project: (require install git)
+
+ - Clone project: (require install git)
  >[git clone https://github.com/tunv13/video-sharing-project](https://github.com/tunv13/video-sharing-project.git)
  
-5) 
+- Have 2 file .env (Recommmend stay my configuration)
+
+> /front-end/.env (Link api and save youtube API key)
+> /backend/.env (port run BE service and secret key to bypass password)
+
+4) Database config
 - I am using database server host on cloud AWS RDS. (Recommend using my DB, my configuration)
 - Config database in link: */backend/config/config.json*
 - Please skip it if you want using my database
@@ -23,6 +28,7 @@ Then run this command for migration and seed DB
 >
 >npx sequelize-cli db:seed:all
 
+5) Running the Application (Docker and without Docker)
 # Run on local with Docker and Docker-compose
 ## Run website
 Run this command in root folder: 
