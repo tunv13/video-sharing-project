@@ -1,17 +1,17 @@
 {
   "development": {
-    "username": "master",
-    "password": "123456789admin",
-    "database": "video_sharing",
-    "host": "videosharing.cgouop1mlid3.ap-southeast-1.rds.amazonaws.com",
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
     "port":3306,
     "dialect": "mysql"
   },
   "test": {
-    "username": "master",
-    "password": "123456789admin",
-    "database": "video_sharing_test",
-    "host": "videosharing.cgouop1mlid3.ap-southeast-1.rds.amazonaws.com",
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
     "port":3306,
     "dialect": "mysql"
   }
