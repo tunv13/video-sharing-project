@@ -36,7 +36,7 @@ And content of file *configdb.json* to file */backend/config/config.json*
 > /backend/.env (port run BE service and secret key to bypass password)
 
 # 4) Database config
-- I am using database server host on cloud AWS RDS. (Recommend using my DB, my configuration)
+- I am using database server host on cloud AWS RDS. (Recommend using my DB, my configuration - the configuration from file zip step 3)
 - Config database in link: */backend/config/config.json*
 - Please skip it if you want using my database
 
