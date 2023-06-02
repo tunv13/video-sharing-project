@@ -1,14 +1,15 @@
 # video-sharing
 
 **1) Introduction: **
+
  - This is a project about sharing video of youtube, user can see all of video that is shared by other people
  - User can login to website to received notification when other user posted new video
  - key features is: Login, View list video, share video, notification when other user push new video
-
-**2) Prerequisites:**
 --
-Require nodejs version 16+, any tools to ide or editor can using for apply this project (I'm using vscode)
+**2) Prerequisites: **
 
+Require nodejs version 16+, any tools to ide or editor can using for apply this project (I'm using vscode)
+--
 3) Installation & Configuration: 
 
  - Clone project: (require install git)
